@@ -1,0 +1,27 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Yaroslav Pitsur",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "ffmpeg-static": "^4.4.0",
+    "googleapis": "^91.0.0",
+    "ytdl-core": "^4.9.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
