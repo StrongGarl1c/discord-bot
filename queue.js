@@ -1,4 +1,4 @@
-class Queue {
+export class Queue {
   constructor() {
     this.state = [];
   }
@@ -20,4 +20,4 @@ class Queue {
   }
 }
 
-module.exports = new Queue();
+export default new Queue();

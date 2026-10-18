@@ -2,9 +2,14 @@
   "name": "discord-bot",
   "version": "1.0.0",
   "description": "discord bot",
-  "main": "index.js",
+  "main": "index.ts",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.ts",
+    "check": "tsc",
     "test": "jest"
   },
   "keywords": [
@@ -15,10 +20,12 @@
   "license": "ISC",
   "dependencies": {
     "@discordjs/opus": "^0.5.3",
-    "discord.js": "^12.5.3",
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.27.0",
     "dotenv": "^10.0.0",
     "ffmpeg-static": "^4.4.0",
     "googleapis": "^91.0.0",
+    "typescript": "^7.0.2",
     "ytdl-core": "^4.11.0"
   },
   "devDependencies": {

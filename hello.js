@@ -1,16 +1,11 @@
-module.exports = [
+export const hello = [
   'hi',
   'hello',
   'greetings',
-  'privet',
-  'pruvet',
   'zdarova',
-  'zdraste',
-  'привет',
   'здарова',
   'здаров',
-  'здрасьте',
-  'приветствую',
+  'вітаю',
   'доброго дня',
   'привіт',
   'доброго дня',
